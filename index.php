@@ -16,7 +16,7 @@ $posts = [
 foreach ($users as $user) {
     $userposts = [];
     foreach ($posts as $post) {
-        if ($post['user_id'] === $user['id']) {
+        if ($post['user_idxxx'] === $user['id']) {
             $userposts[] = $post;
         }
     }
